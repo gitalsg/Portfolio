@@ -17,12 +17,19 @@ html, body {
     height: 100%;
 }
 
+/* Pictures size */
+
+img {
+    width: 200px;
+    height: auto;
+}
+
 /* Placement */
 
 body {
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background-color: rgba(234, 192, 255, 0.409);
 }
 
 .main {
@@ -71,7 +78,7 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 2px solid #2678dda4;
 }
 
 .footer a {
@@ -99,10 +106,6 @@ p, td, th, li, dd {
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
-}
-
-img {
-    max-width: 100%;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
