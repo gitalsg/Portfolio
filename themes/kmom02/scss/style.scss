@@ -12,7 +12,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'code';
 @import 'mobile-menu';
 @import 'typography';
-@import 'responsiv';
+
+@import 'container';
+@import 'footer';
+@import 'header';
 
 body {
     background-color: $background-color;

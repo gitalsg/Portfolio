@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 2em;
+    background-color: rgba(252, 139, 230, 0.707);
+
+    img {
+        width: 200px;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        color: black;
+    }
+}
+
+.nav a {
+    font-size: 1rem;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    padding: 2em;
+}
