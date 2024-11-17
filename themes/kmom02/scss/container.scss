@@ -1,51 +1,56 @@
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 .main {
-    width: 100%;
-    max-width: 64rem;
-    padding: 2rem;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 64rem;
+  padding: 2rem;
+  margin: 0 auto;
     
-    img {
-        width: 200px;
-        height: auto;
-        border-radius: 5px;
-    }
+  img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+  }
 }
 
 .main {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
-.header, .footer {
-    flex: 0 0 auto;
-}
-
-@media (max-width: 767px) {
-    .title, .logo {
-        padding: 1em 1em 1em 0;
-    }
-    .title {
-        min-width: 50%;
-    }
-    .logo {
-        max-width: 30%;
-    }
+.header,
+.footer {
+  flex: 0 0 auto;
 }
 
 @media (max-width: 767px) {
-    .main {
-        width: 100%;
-        max-width: 34rem;
-        padding: 1rem;
-        margin: 0 auto;
+  .title,
+  .logo {
+    padding: 1em 1em 1em 0;
+  }
+
+  .title {
+    min-width: 50%;
+  }
+  
+  .logo {
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    width: 100%;
+    max-width: 34rem;
+    padding: 1rem;
+    margin: 0 auto;
         
-        img {
-            width: 200px;
-            height: auto;
-            border-radius: 5px;
-        }
+    img {
+      width: 200px;
+      height: auto;
+      border-radius: 5px;
     }
+  }
 }

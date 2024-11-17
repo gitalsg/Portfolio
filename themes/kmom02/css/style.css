@@ -6473,7 +6473,8 @@ pre code {
   padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
   color: #333;
 }
 
@@ -6513,11 +6514,17 @@ pre code {
   font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Open Sans", sans-serif;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -6537,12 +6544,14 @@ html, body {
   flex: 1 0 auto;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
 }
 
 @media (max-width: 767px) {
-  .title, .logo {
+  .title,
+  .logo {
     padding: 1em 1em 1em 0;
   }
   .title {
@@ -6573,7 +6582,7 @@ html, body {
   align-items: center;
   background-color: rgba(220, 144, 239, 0.697);
 }
-.footer .social a {
+.footer .social .a {
   text-decoration: none;
   font-size: 3rem;
 }
@@ -6592,7 +6601,7 @@ html, body {
 }
 .header h1 {
   font-size: 2rem;
-  color: black;
+  color: rgba(0, 0, 0, 0.999);
 }
 
 .nav a {
