@@ -7,30 +7,30 @@ Template: technologies
 Technologies
 ==========================
 
-<div class="box">
+<div class="box1">
 CSS
 </div>
 
-<div class="box">
+<div class="box-HTML">
 HTML
 </div>
 
-<div class="box">
+<div class="box-JS">
 JAVASCRIPT
 </div>
 
-<div class="box">
+<div class="box-PHP">
 PHP
 </div>
 
-<div class="box">
+<div class="box-P">
 PYTHON
 </div>
 
-<div class="box">
+<div class="box-GIT">
 GIT
 </div>
 
-<div class="box wide">
+<div class="box2">
 SQLITE
 </div>
