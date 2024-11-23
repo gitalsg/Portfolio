@@ -4,7 +4,6 @@ body {
 }
 
 .main {
-  width: 100%;
   max-width: 64rem;
   padding: 2rem;
   margin: 0 auto;
@@ -42,7 +41,6 @@ body {
 
 @media (max-width: 767px) {
   .main {
-    width: 100%;
     max-width: 34rem;
     padding: 1rem;
     margin: 0 auto;

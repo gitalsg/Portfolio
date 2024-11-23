@@ -2,35 +2,22 @@
 Title: Technologies
 Description: This is my technologies page.
 Template: technologies
+techs:
+    - name: CSS
+      class: box-CSS
+    - name: HTML
+      class: box-HTML
+    - name: Javascript
+      class: box-JS
+    - name: PHP
+      class: box-PHP
+    - name: Python
+      class: box-P
+    - name: Git
+      class: box-GIT
+    - name: SQLite
+      class: box-SQ
 ---
 
 Technologies
 ==========================
-
-<div class="box1">
-CSS
-</div>
-
-<div class="box-HTML">
-HTML
-</div>
-
-<div class="box-JS">
-JAVASCRIPT
-</div>
-
-<div class="box-PHP">
-PHP
-</div>
-
-<div class="box-P">
-PYTHON
-</div>
-
-<div class="box-GIT">
-GIT
-</div>
-
-<div class="box2">
-SQLITE
-</div>

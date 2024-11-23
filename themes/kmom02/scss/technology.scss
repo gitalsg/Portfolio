@@ -1,10 +1,11 @@
 /* technology.scss */
 .landingpage {
     display: grid;
-    gap: 1em 1em;
+    gap: 1.96rem 1.96rem;
     grid-template-columns: repeat(3, 1fr);
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: 1.96rem;
 }
 
 .landingpage h1 {
@@ -19,7 +20,26 @@
     border: 1px solid white;
 }
 
-.box1 {
+.box:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.technology .article {
+    width: 60%;
+}
+
+.technology .menu {
+    width: 30%;
+}
+
+.box-CSS {
     grid-column: span 1;
     grid-row: span 1;
 }
@@ -44,7 +64,7 @@
     grid-column: span 1;
 }
 
-.box2 {
+.box-SQ {
     grid-column: span 2;
 }
 
