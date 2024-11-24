@@ -1,80 +1,104 @@
 /* technology.scss */
 .landingpage {
-    display: grid;
-    gap: 1.96rem 1.96rem;
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 800px;
-    margin: 0 auto;
-    margin-bottom: 1.96rem;
+  display: grid;
+  gap: 1.96rem;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 1.96rem;
 }
 
 .landingpage h1 {
-    grid-column: span 3;
-    justify-self: center;
+  grid-column: span 3;
+  justify-self: center;
 }
 
 .landingpage div {
-    background-color: antiquewhite;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid white;
+  background-color: rgba(250, 235, 215, 0.833);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.875);
 }
 
 .box:hover {
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.067);
 }
 
 .technology {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .technology .article {
-    width: 60%;
+  width: 60%;
 }
 
 .technology .menu {
-    width: 30%;
+  width: 30%;
 }
 
-.box-CSS {
+.boxcss {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.boxhtml {
+  grid-column: span 2;
+}
+
+.boxjs {
+  grid-column: span 2;
+}
+
+.boxphp {
+  grid-column: span 1;
+}
+
+.boxp {
+  grid-column: span 3;
+}
+
+.boxgit {
+  grid-column: span 1;
+}
+
+.boxsq {
+  grid-column: span 2;
+}
+
+@media (max-width: 768px) {
+  .landingpage h1 {
     grid-column: span 1;
-    grid-row: span 1;
-}
+    justify-self: center;
+  }
 
-.box-HTML {
-    grid-column: span 2;
-}
+  .landingpage {
+    grid-template-columns: 100%;
+  }
 
-.box-JS {
-    grid-column: span 2;
-}
-
-.box-PHP {
+  .boxcss,
+  .boxhtml,
+  .boxjs,
+  .boxphp,
+  .boxp,
+  .boxgit,
+  .boxsq {
     grid-column: span 1;
+  }
 }
 
-.box-P {
-    grid-column: span 3;
-}
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
 
-.box-GIT {
-    grid-column: span 1;
-}
-
-.box-SQ {
-    grid-column: span 2;
-}
-
-@media (max-width: 960px) {
-    .landingpage {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .landingpage div {
-        text-align: center;
-        padding: 15px;
-    }
+  .technology {
+    flex-direction: column;
+  }
+    
+  .article {
+    width: 100%;
+  }
 }
