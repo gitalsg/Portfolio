@@ -3,19 +3,19 @@ Title: Technologies
 Description: This is my technologies page.
 Template: technologies
 techs:
-    - name: CSS
+    - name: css
       class: boxcss
-    - name: HTML
+    - name: html
       class: boxhtml
-    - name: Javascript
+    - name: javascript
       class: boxjs
-    - name: PHP
+    - name: php
       class: boxphp
-    - name: Python
+    - name: python
       class: boxp
-    - name: Git
+    - name: git
       class: boxgit
-    - name: SQLite
+    - name: sqlite
       class: boxsq
 ---
 
