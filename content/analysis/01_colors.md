@@ -1,12 +1,12 @@
 Färg
 =======================
 
-Skriv en eller två rader om vad uppgiften handlar om.
+Uppgiften för kmom04 är att analysera tre olika webbplatser och deras färgval. 
 
 Urval
 -----------------------
 
-Berätta vilka webbplatser du valt att undersöka och varför eller hur du gick tillväga när du gjorde ditt urval.
+Jag har valt att undersöka Blekinge Läns Tidning, Åhléns webbplats samt Pandoras webbplats.
 
 Metod
 -----------------------
