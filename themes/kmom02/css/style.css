@@ -6636,9 +6636,10 @@ body {
   max-width: 64rem;
   padding: 2rem;
   margin: 0 auto;
+  background-color: #FFE5EC;
 }
 .main img {
-  width: 200px;
+  width: 400px;
   height: auto;
   border-radius: 5px;
 }
@@ -6682,7 +6683,7 @@ body {
   padding: 2rem;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(220, 144, 239, 0.697);
+  background-color: #fb6f92;
 }
 .footer .social .a {
   text-decoration: none;
@@ -6694,7 +6695,7 @@ body {
   align-items: center;
   gap: 1em;
   padding: 2em;
-  background-color: rgba(252, 139, 230, 0.707);
+  background-color: #ffb3c6;
 }
 .header img {
   width: 200px;
@@ -6722,7 +6723,7 @@ body {
 }
 
 body {
-  background-color: rgba(220, 74, 228, 0.2392156863);
+  background-color: #ffc2d1;
 }
 
 * {
