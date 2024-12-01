@@ -6512,6 +6512,7 @@ pre code {
 }
 * {
   font-family: "Roboto", sans-serif;
+  color: #000;
 }
 
 h1,
@@ -6527,6 +6528,7 @@ h6 {
 p {
   font-size: 1.4em;
   margin-bottom: 1.96rem;
+  color: #000;
 }
 
 /* technology.scss */
@@ -6545,7 +6547,7 @@ p {
 }
 
 .landingpage div {
-  background-color: rgba(250, 235, 215, 0.833);
+  background-color: #ff8fab;
   text-align: center;
   padding: 20px;
   border: 1px solid rgba(255, 255, 255, 0.875);
@@ -6637,7 +6639,7 @@ body {
   max-width: 64rem;
   padding: 2rem;
   margin: 0 auto;
-  background-color: #FFE5EC;
+  background-color: #ffe5ec;
 }
 .main img {
   width: 400px;
@@ -6724,9 +6726,5 @@ body {
 }
 
 body {
-  background-color: #ffc2d1;
-}
-
-* {
-  color: #000;
+  background-color: #ff8fab;
 }

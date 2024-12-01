@@ -21,9 +21,5 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'header';
 
 body {
-  background-color: $background-color;
-}
-
-* {
-  color: $font-color;
+  background-color: $body-background-color;
 }

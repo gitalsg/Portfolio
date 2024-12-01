@@ -1,6 +1,7 @@
 * {
   font-family: 'Roboto',
     sans-serif;
+  color: $font-color;
 }
 
 h1,
@@ -16,4 +17,5 @@ h6 {
 p {
   font-size: 1.4em;
   margin-bottom: 1.96rem;
+  color: $font-color;
 }

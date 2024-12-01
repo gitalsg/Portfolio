@@ -6512,6 +6512,7 @@ pre code {
 }
 * {
   font-family: "Roboto", sans-serif;
+  color: #d6cbb1;
 }
 
 h1,
@@ -6521,12 +6522,13 @@ h4,
 h5,
 h6 {
   font-family: "Open Sans", sans-serif;
-  color: rgba(0, 0, 0, 0.1137254902);
+  color: #d6cbb1;
 }
 
 p {
   font-size: 1.4em;
   margin-bottom: 1.96rem;
+  color: #d6cbb1;
 }
 
 /* technology.scss */
@@ -6545,7 +6547,7 @@ p {
 }
 
 .landingpage div {
-  background-color: rgba(250, 235, 215, 0.833);
+  background-color: #3d260f;
   text-align: center;
   padding: 20px;
   border: 1px solid rgba(255, 255, 255, 0.875);
@@ -6637,7 +6639,7 @@ body {
   max-width: 64rem;
   padding: 2rem;
   margin: 0 auto;
-  background-color: #6996d1;
+  background-color: #3b342a;
 }
 .main img {
   width: 400px;
@@ -6684,7 +6686,7 @@ body {
   padding: 2rem;
   justify-content: space-between;
   align-items: center;
-  background-color: #4d0f1e;
+  background-color: #655d4f;
 }
 .footer .social .a {
   text-decoration: none;
@@ -6696,7 +6698,7 @@ body {
   align-items: center;
   gap: 1em;
   padding: 2em;
-  background-color: #9c6472;
+  background-color: #8c6019;
 }
 .header img {
   width: 200px;
@@ -6721,4 +6723,8 @@ body {
 
 .title {
   padding: 2em;
+}
+
+body {
+  background-color: #3d260f;
 }
