@@ -16,10 +16,16 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import 'technology';
 
+@import 'gallery';
+
 @import 'container';
 @import 'footer';
 @import 'header';
 
 body {
   background-color: $body-background-color;
+}
+
+img, embed, object, video {
+  max-width: 100%;
 }
