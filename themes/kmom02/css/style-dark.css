@@ -6630,6 +6630,34 @@ p {
     width: 100%;
   }
 }
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+.gallery {
+  display: grid;
+  gap: 1.96rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1.96rem;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 html,
 body {
   height: 100%;

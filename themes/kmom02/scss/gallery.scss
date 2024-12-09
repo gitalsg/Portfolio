@@ -1,45 +1,28 @@
-.landingpage {
-    display: grid;
-    gap: 1.96rem;
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 800px;
-    margin: 0 auto;
-    margin-bottom: 1.96rem;
-  }
-  
-  .landingpage h1 {
-    grid-column: span 3;
-    justify-self: center;
-  }
-  
-  .landingpage div {
-    background-color: $body-background-color;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.875);
-  }
-  
-  .box:hover {
-    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.067);
-  }
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+.gallery {
+  display: grid;
+  gap: 1.96rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1.96rem;
+  justify-content: center;
+}
 
 @media (max-width: 768px) {
-  .landingpage h1 {
-    grid-column: span 1;
-    justify-self: center;
+  .gallery {
+    grid-template-columns: 1fr;
   }
-  
-  .landingpage {
-    grid-template-columns: 100%;
-  }
-  
-    .boxcss,
-    .boxhtml,
-    .boxjs,
-    .boxphp,
-    .boxp,
-    .boxgit,
-    .boxsq {
-      grid-column: span 1;
-    }
-  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
