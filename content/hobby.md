@@ -1,7 +1,6 @@
 ---
 Title: Hobby
 Description: Page about my hobby
-icon: fas fa-user
 ---
 
 Min hobby

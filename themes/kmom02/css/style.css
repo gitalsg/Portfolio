@@ -6767,6 +6767,10 @@ body::after {
   height: 100%;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -6775,7 +6779,16 @@ body::after {
   align-items: center;
   background-color: #fb6f92;
 }
-.footer .social .a {
+.footer .social {
+  display: flex;
+  gap: 1rem;
+}
+.footer .social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
   text-decoration: none;
   font-size: 3rem;
 }

@@ -13,9 +13,9 @@ Metod
 
 För undersökningen har jag använt mig av verktyget PageSpeed Insights samt Devtools - Network. Med hjälp av dessa verktyg kan man se webbplatsens prestande för mobilt och dator. De värderna som jag fick fram har jag samlat i ett Google Kalkylark där man kan se resultatet från tre tester för de webbplatserna som analyserats; på ett smidigt sätt kan man jämföra dessa med varandra. Här nedan kan man se sammaställningen av resultaten, som även kan ses här: [Analysis](https://docs.google.com/spreadsheets/d/1ASgPFp0rXllDr_LJp5bSdMsthWKE_bqUFsJ0oh_ULFw/edit?gid=0#gid=0)
 
-<a href="%base_url%/image/analysis.png" target="_blank">
+<a href="%base_url%/image/analysis.png" target="_blank" aria-label="Analysis">
     <picture>
-        <source media="(min-width: 668px)" srcset="%base_url%/image/analysis.png">
+        <source media="(min-width: 668px)" srcset="%base_url%/image/analysis.png" alt="analysis">
         <img src="%base_url%/image/analysis.png&w=1200" alt="analysis">
     </picture>
 </a>
@@ -25,9 +25,9 @@ Resultat
 
 Rusta
 
-<a href="%base_url%/image/rusta.png" target="_blank">
+<a href="%base_url%/image/rusta.png" target="_blank" aria-label="Rusta">
     <picture>
-        <source media="(min-width: 668px)" srcset="%base_url%/image/rusta.png">
+        <source media="(min-width: 668px)" srcset="%base_url%/image/rusta.png" alt="Rusta">
         <img src="%base_url%/image/rusta.png&w=667" alt="Rusta">
     </picture>
 </a>
@@ -39,9 +39,9 @@ Prestandan för Rustas webbplats hamnar på ett genomsnitt av
 
 City Gross
 
-<a href="%base_url%/image/citygross.png" target="_blank">
+<a href="%base_url%/image/citygross.png" target="_blank" aria-label="CityGross">
     <picture>
-        <source media="(min-width: 668px)" srcset="%base_url%/image/citygross.png">
+        <source media="(min-width: 668px)" srcset="%base_url%/image/citygross.png" alt="CityGross">
         <img src="%base_url%/image/citygross.png&w=667" alt="CityGross">
     </picture>
 </a>
@@ -52,9 +52,9 @@ Webbplatsens genomsnittliga prestanda för mobilt är 46 och för dator 54, äve
 
 Willys
 
-<a href="%base_url%/image/willys.png" target="_blank">
+<a href="%base_url%/image/willys.png" target="_blank" aria-label="Willys">
     <picture>
-        <source media="(min-width: 668px)" srcset="%base_url%/image/willys.png">
+        <source media="(min-width: 668px)" srcset="%base_url%/image/willys.png" alt="Willys">
         <img src="%base_url%/image/willys.png&w=667" alt="Willys">
     </picture>
 </a>
