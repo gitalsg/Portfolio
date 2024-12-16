@@ -6668,6 +6668,8 @@ body {
   padding: 2rem;
   margin: 0 auto;
   background-color: #ffe5ec;
+  border: 1px solid #ff8fab;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1), 0 3px 5px rgba(0, 0, 0, 0.6);
 }
 .main img {
   width: 400px;

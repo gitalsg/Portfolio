@@ -37,19 +37,18 @@ Designprinciperna som har följts till en viss grad är rangordningen av det som
 
 ![Portfolio 3](%assets_url%/img/portfolio3.png)
 
-Även denna webbplats avser att visa sig attratik som webbutvecklare. Personens portfolio är en väg in och en presentation för personens kompetenser. 
+Även denna webbplats avser att visa sig attratik som webbutvecklare. Personens portfolio är en väg in och en presentation för personens kompetenser. Webbplatsen har en mer lekfull design med rubriker som sträcker sig halvt över element. Den använder sig även av skuggor som gör att elementen poppar ut lite och gör webbplatsen mer livlig. Jag anser att designen gynnar webbplatsens mål eftersom att den visar att webbutvecklaren kan använda olika designmetoder för att göra sidan mer välarbetad. 
+
+Webbplatsen har en tydlig struktur och visar förs information om personen bakom sidan och sedan olika kompetenser med mera, vilket tyder på att elementet är hierarkisk uppdelade. Den har även en bestämd färgschema och två färger används varannan gång för att presenetera de olika elementen, som gör att det repeteras och skapar en röd tråd. Det finns endast en sida men de olika element kan nås genom länkar på sidan; designprinciperna är densamma för hela webbplatsen.
 
 Analys
 -----------------------
 
-Diskutera och analysera de resultaten du fann.
+Resultatet visar tydligt hur designen av en webbplats påverkar känslan för den; en tydlig färschema och repetition skapar en röd tråd som får sidan att upplevas enhetligt. Det är också viktigt att ha en tydlig hierarki på sin webbplats för att de som kollar på den ska se det viktigaste först. Sammansättningen är också viktigt för att få ihop alla element och skapa en trevlig känsla av helheten av de olika designprinciperna.
 
-Referenser
+Analys av min portfolio
 -----------------------
 
-Ange de eventuella referenser du använder dig av, om några.
+På min portfolio har jag använt mig av enklare design. Det finnst ett monokromatiskt färgschema som kännertecknar webbplatsen. Designen ger en känsla av enkelhet men tydlighet och designen har en röd tråd genom hela webbplatsen. Samma design av de olika undersidor används och även gridden är densamma. Repetition och färgschemat gör ändå att sammansättningen av webbplatsen är god. Utifrån den analysen jag har gjort om andra protfolio så hade en mer lekfullt design varit önskvärt även för min portfolio. Det gör att den som besöker webbplatsen vill stanna kvar och se vad som finns.
 
-Övrigt
------------------------
-
-Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
+Några uppdataringar hade kunnat tillämpas är en ram runt de olika elementer och även någon skugga för att få lite liv i det hela. Det hade också varit trevligt med mer levande rubriker, kanske bokstäver med skugga eller ord i olika former. De upddateringar jag har gjort är ramen och skuggorna runt om; levande rubriker känns lite svårt men förhoppningsvis något som jag kommer kunna åstadkomma med mer övning. 
